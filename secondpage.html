@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./second-page.css">
+    <link rel="stylesheet" href="./resolutions.css">
+    <link rel="icon" href='./assets/favicon.png'>
+    <title>Калькулятор ИМТ</title>
+</head>
+
+<body>
+    <header>
+        <div class="sec-page-img">
+            <!-- <p class="header-command-name">&lt;WF/&gt;</p> -->
+            <h1>Рассчет ИМТ</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+            <div class="inputs" id="inputs">
+                <p class="second-page-text" style="margin-top: 10px;">Давайте приступим!</p>
+                <p class="second-page-text inside" style="padding-bottom: 20px;">Вам необходимо заполнить приведенные
+                    ниже поля, а затем нажать на кнопку, чтобы
+                    получить результат.</p>
+
+
+
+                <div class="input-str">
+                    <p>Вес:</p>
+                    <input type="number" placeholder="Введите вес:" min="20" max="200" id="weight-inp">
+                    <p>кг</p>
+                </div>
+                <div class="input-str">
+                    <p>Рост:</p>
+                    <input type="number" placeholder="Введите рост:" min="50" max="200" id="height-inp">
+                    <p>см</p>
+                </div>
+                <button class="result-btn" onclick="calculate_inp()">Рассчитать</button>
+            </div>
+
+            <div class="result" id="result">
+                <p class="second-page-text res-text">Ваш результат: </p>
+                <p id="result-inp" class="second-page-text res-int"></p>
+                <p id="category-inp" class="second-page-text res-text"></p>
+                <p class="second-page-text desc">ИМТ &lt; 18 = недостаток веса<br>ИМТ 18,5 - 24,9 = нормальный вес<br> ИМТ 25,0 - 29,9 = избыточный
+                    вес<br>ИМТ &gt; 30 = ожирение</p>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,512 @@
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    body{
+        height: auto;
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+    }
+
+    .health-image{
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        width: 720px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .main-page-text2{
+        margin: 20px 0px 20px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 21px;
+    }
+
+
+
+    .inputs{
+        margin: 180px 40px 0px 40px !important;
+    }
+    #main{
+        flex-direction: column;
+        align-content: center;
+        gap: 40px;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 650px;
+        padding: 25px;
+    }
+
+
+    .res-int{
+        font-size:55px;
+    }
+
+    .res-text{
+        font-size: 37px;
+    }
+
+    .desc{
+        font-size: 22px !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        height: auto;
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+    }
+
+    .health-image{
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        width: 720px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .main-page-text2{
+        margin: 20px 0px 20px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 21px;
+    }
+
+
+
+
+
+    #main{
+        flex-direction: column;
+        align-content: center;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 650px;
+        padding: 25px;
+    }
+
+
+    .res-int{
+        font-size:55px;
+    }
+
+    .res-text{
+        font-size: 37px;
+    }
+
+    .desc{
+        font-size: 22px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body{
+        height: auto;
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .project-name{
+        width: 500px;
+    }
+
+    .description{
+        font-size: 42px;
+        width: 500px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .health-image{
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        width: 580px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .main-page-text2{
+        margin: 20px 0px 20px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 18px;
+    }
+
+
+
+    .inputs{
+        width: 510px;
+        margin-top: 120px;
+    }
+
+    .inside{
+        width: 480px;
+    }
+
+
+
+    #main{
+        flex-direction: column;
+        align-content: center;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 510px;
+        padding: 25px;
+    }
+
+    .res-int{
+        font-size:50px;
+    }
+
+    .res-text{
+        font-size: 37px;
+    }
+
+    .desc{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    body{
+        height: auto;
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .project-name{
+        width: 300px;
+        font-size: 42px;
+    }
+
+    .description{
+        font-size: 32px;
+        width: 300px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .health-image{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 310px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .main-page-text2{
+        margin: 0 0 15px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 18px;
+    }
+
+
+
+
+
+    .inputs{
+        width: 350px;
+        margin-top: 120px;
+        padding: 18px;
+    }
+
+    .inputs input{
+        width: 210px;
+    }
+
+    .inside{
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .input-str p{
+        font-size: 27px;
+    }
+
+
+    #main{
+        flex-direction: column;
+        align-content: center;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 350px;
+        padding: 18px;
+    }
+
+    .res-int{
+        font-size:40px;
+    }
+
+    .res-text{
+        font-size: 27px;
+    }
+
+    .desc{
+        font-size: 16px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    body{
+        height: auto;
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .project-name{
+        width: 250px;
+        font-size: 35px;
+    }
+
+    .description{
+        font-size: 26px;
+        width: 240px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .health-image{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 280px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .main-page-text2{
+        margin: 0 0 15px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 17px;
+    }
+
+    .nextp-button{
+        padding: 10px 25px;
+    }
+
+
+
+
+
+    .sec-page-img h1{
+        font-size: 30px;
+    }
+    .inputs{
+        width: 260px;
+        margin-top: 120px;
+        padding: 10px;
+    }
+
+    .second-page-text{
+        font-size: 27px;
+    }
+
+    .inputs input{
+        width: 150px;
+    }
+
+    .inside{
+        width: 250px;
+        font-size: 24px;
+    }
+
+    .input-str p{
+        font-size: 22px;
+    }
+
+
+
+    #main{
+        flex-direction: column;
+        align-content: center;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 260px;
+        padding: 10px;
+    }
+
+    .res-int{
+        font-size:40px;
+    }
+
+    .res-text{
+        font-size: 27px;
+    }
+
+    .desc{
+        font-size: 16px !important;
+    }
+
+}
+
+
+
+@media screen and (min-width: 20px) and (max-width: 300px) {
+    body{
+        width: 150%;
+        height: auto;
+        
+    }
+    
+    .index{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    header{
+        width: 150%;
+    }
+
+    .project-name{
+        width: 250px;
+        font-size: 35px;
+    }
+
+    .description{
+        font-size: 26px;
+        width: 240px;
+    }
+    
+    .main-page-text{
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .health-image{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 280px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .main-page-text2{
+        margin: 0 40px 15px 0;
+        border-radius: 20px;
+    }
+
+    .main-page-text2 p{
+        font-size: 17px;
+    }
+
+    .nextp-button{
+        padding: 10px 25px;
+    }
+
+
+
+
+
+
+    .sec-page-img h1{
+        font-size: 30px;
+    }
+    .inputs{
+        width: 290px;
+        margin-top: 120px;
+        padding: 10px;
+    }
+
+    .second-page-text{
+        font-size: 27px;
+    }
+
+    .inputs input{
+        width: 150px;
+    }
+
+    .inside{
+        width: 250px;
+        font-size: 24px;
+    }
+
+    .input-str p{
+        font-size: 22px;
+    }
+
+    #main{
+        flex-direction: column;
+        align-content: center;
+    }
+    .result{
+        margin: 50px 40px 0 40px !important;
+        width: 290px;
+        padding: 10px;
+    }
+
+    .res-int{
+        font-size:40px;
+    }
+
+    .res-text{
+        font-size: 27px;
+    }
+
+    .desc{
+        font-size: 16px !important;
+    }
+}
